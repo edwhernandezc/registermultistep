@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains registermultistep.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function registermultistep_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the registermultistep module.
+    case 'help.page.registermultistep':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Register Multistep') . '</p>';
+      return $output;
+
+    default:
+  }
+}

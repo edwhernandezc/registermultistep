@@ -1,0 +1,7 @@
+registermultistep.register_multistep_form:
+  path: '/register/multistep'
+  defaults:
+    _form: '\Drupal\registermultistep\Form\RegisterMultistepForm'
+    _title: 'RegisterMultistepForm'
+  requirements:
+    _access: 'TRUE'

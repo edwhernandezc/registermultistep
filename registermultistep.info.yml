@@ -1,0 +1,7 @@
+name: 'registermultistep'
+type: module
+description: 'Register Multistep'
+core: 8.x
+package: 'Edwin'
+dependencies:
+  - user

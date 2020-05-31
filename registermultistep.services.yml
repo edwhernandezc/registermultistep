@@ -1,0 +1,7 @@
+services:
+  logger.channel.registermultistep:
+    parent: logger.channel_base
+    arguments: ['registermultistep']
+  registermultistep.service:
+    class: Drupal\registermultistep\RegisterMultistepService
+    arguments: []
